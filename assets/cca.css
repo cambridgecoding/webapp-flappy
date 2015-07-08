@@ -1,0 +1,67 @@
+body {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    /*width: 100%;*/
+    background: url('flappy-bg.png') repeat;
+}
+#header {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: url('flappy-header.png') top center no-repeat;
+    background-size: 100%;
+}
+#cca {
+    padding-top: 5%;
+    padding-left: 60%;
+    padding-bottom: 20px;
+}
+#header p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+#header a{
+    text-decoration: none;
+}
+#header h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+}
+#flappy {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+#footer {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: url('flappy-footer.png') top center no-repeat;
+    background-size: 100%;
+}
+#footer p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    padding-top: 9%;
+    padding-left: 15%;
+    margin: 0;
+}
+#game {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#logo {
+    width: 220px;
+}
