@@ -69,12 +69,12 @@ var game = new Phaser.Game(game_width, game_height, Phaser.AUTO, 'game', actions
  */
 function preload() {
     // load the images located in the 'assets/' folder and assign names to them (e.g. 'pipe')
-    game.load.image('background', '../assets/bg1.jpg');
-    game.load.image('flappybird', '../assets/flappy-cropped.png');
-    game.load.image('pipe-body', '../assets/pipe2-body.png');
-    game.load.image('pipe-end', '../assets/pipe2-end.png');
+    game.load.image('background', 'assets/bg1.jpg');
+    game.load.image('flappybird', 'assets/flappy-cropped.png');
+    game.load.image('pipe-body', 'assets/pipe2-body.png');
+    game.load.image('pipe-end', 'assets/pipe2-end.png');
     // load audio and sound effects
-    game.load.audio('score', '../assets/point.ogg');
+    game.load.audio('score', 'assets/point.ogg');
 
     game_width = document.querySelector("#game").offsetWidth
 }
