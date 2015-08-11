@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Vicdine's Flippy Burger</title>
+
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/style1.css"/>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+  <h1>Welcome to the best flippy burger game there is!!</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-10">
+            <!--p id="gameLink">
+                <a href="example.html">Here will be the game</a>
+            </p-->
+            <img src="../assets/screen3.png" class="img-responsive" />
+    </div>
+        <div class="col-xs-2">
+
+            <div id="greeting">
+                <form id="greeting-form" class="form-inline">
+                    <div class="form-group">
+                        <label for="fullName">What's your name?</label>
+                        <input type="text" id="fullName"
+                               name="fullName" class="form-control" placeholder="Bob">
+                        <label for="email">What's your email?</label>
+                        <input type="email" id="email" class="form-control"
+                               name="email" placeholder="bob@email.com">
+
+                        <input type="hidden" id="score" name="score" value="0">
+                    </div>
+                    <button class="btn btn-default" type="submit">OK</button>
+                </form>
+            </div>
+
+            <p>The highest scores are:</p>
+      <ul>
+          <li class="gold">Me</li>
+          <li class="score">Myself</li>
+          <li class="score2">I</li>
+       </ul>
+            </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="../assets/screenshotStart.png" class="img-circle img-responsive" />
+    </div>
+    <div class="col-md-4">
+        <img src="../assets/screenshot.png" class="img-rounded img-responsive" />
+    </div>
+    <div class="col-md-4">
+        <img src="../assets/screenshotOver.png" class="img-thumbnail img-responsive" />
+    </div>
+</div>
+
+<div id="game"> </div>
+<script src="../lib/jquery.js"></script>
+<script src="../lib/phaser.min.js"></script>
+<script src="../js/flappy.js"></script>
+</body>
+
+</html>
+
