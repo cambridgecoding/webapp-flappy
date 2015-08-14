@@ -1,0 +1,68 @@
+h1 {
+    color: yellow;
+    font-family: "Reprise Stamp";
+    text-align: center;
+    font-size: 40px;
+}
+
+#gameLink {text-align: center;
+}
+
+body{
+    background-image: url("../assets/bakerst.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 17px;
+    color:white;
+    font-weight: bolder;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.gold{
+    color: gold;
+}
+
+.silver{
+    color: silver;
+}
+
+.bronze{
+    color: coral;
+}
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+#game {
+
+}
+
+#greeting {
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background: #fff;
+    width: 350px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    color:black;
+    font-size: 14px;
+}
+
+#save {
+    color: red;
+    font-size: 20px;
+}
+
+#copyright {
+    font-size: 10px;
+}
