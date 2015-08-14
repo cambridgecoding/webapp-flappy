@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title> Flappy Sherlock </title>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/style.css"/>
+
+    <script src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../lib/phaser.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+<br />
+<h1> Flappy Sherlock </h1>
+<br />
+</div>
+
+<div class="row">
+Greetings, (except you Anderson)
+
+<p> Welcome to this mind-numbingly boring game, also known as Flappy Sherlock. </p>
+
+<p>No brains required, just press Space to jump.</p>
+
+<p>P.S. Try not to be a complete imbecile; It's not that hard to jump through a hole in a pipe.</p>
+
+<p>Now go...</p>
+
+<div id="gameLink"><a href="example.html"> The Game is on!!</a></div>
+
+<p>- SH</p>
+<br />
+
+</div>
+
+<div id="greeting">
+    <form id="greeting-form" method="post" action="/score">
+        <div class="form-group">
+            <p id="save"> Save Your Score! </p>
+            <label for="fullName">What's your name?</label>
+            <input type="text" id="fullName"
+                   name="fullName" class="form-control" placeholder="Mrs Hudson">
+
+            <label for="email">What's your email?</label>
+            <input type="email" id="email" class="form-control"
+                   name="email" placeholder="MrsH@221BakerST.com">
+
+            <input type="hidden" id="score" name="score" value="0">
+
+        </div>
+        <button class="btn btn-default" type="submit">OK</button>
+        <button class="btn btn-default" type="game.reload">Restart</button>
+    </form>
+</div>
+
+
+
+<div id="game" align="center"></div>
+
+<script type="text/javascript" src="../js/flappy.js"></script>
+ <br />
+
+<br />
+
+<img src="../assets/mor.gif" width="311" height="150" id="gif">
+
+
+<br />
+
+<br/>
+
+<div id="copyright"> <p>&copy; BBC - All characters, sounds, names and images belong to the BBC and no copyright infringement was intended</p></div>
+</body>
+
+
+</html>
