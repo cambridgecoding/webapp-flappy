@@ -8,9 +8,9 @@ app.get("/", function(request, response){
     response.sendFile(path.join(__dirname, "pages/index.html"));
 });
 
-app.post('/score', function(request, response){
-    
-});
+//app.post('/score', function(request, response){
+//
+//});
 
 var server = app.listen((process.env.PORT || 8080), function() {
     var host = server.address().address;
