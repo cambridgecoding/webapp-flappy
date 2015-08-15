@@ -1,0 +1,32 @@
+h1 {
+    color: #74B4E8;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+
+.score {
+    color: silver;
+    font-size: 30px;
+
+}
+
+.score2 {
+    color: rosybrown;
+    font-size: 30px;
+
+}
+
+.gold {
+    color: gold;
+    font-size: 30px;
+}
+#gameLink {
+    text-align: center;
+    border: 1px solid white;
+}
+
+body {
+    background-color: darkcyan;
+}
