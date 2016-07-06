@@ -6,5 +6,7 @@ function printer(error, stdout, stderr) {
   console.log(stdout);
   console.warn(stderr);
 }
+
 exec("apm install atom-live-server", printer);
 exec("apm install linter-jshint", printer);
+exec("apm install git-plus", printer);
