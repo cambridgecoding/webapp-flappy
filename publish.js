@@ -6,4 +6,4 @@ function printer(error, stdout, stderr) {
   console.log(stdout);
   console.warn(stderr);
 }
-exec("git push origin master:gh-pages", printer);
+exec("git push origin master:gh-pages --force", printer);
