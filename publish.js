@@ -13,13 +13,13 @@ if (!Date.now) {
   };
 }
 
-var name = "Your Github Name";
-var email = "Your Github email";
+//var name = "Your Github Name";
+//var email = "Your Github email";
 
-console.log("Configuring git");
+//console.log("Configuring git");
 
-exec("git config --global user.name " + name, printer);
-exec("git config --global user.email " + email, printer);
+//exec("git config --global user.name " + name, printer);
+//exec("git config --global user.email " + email, printer);
 
 console.log("Commiting code locally");
 exec("git add .", printer);
